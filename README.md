@@ -31,3 +31,8 @@ exit : exit the software without printing anything.
 1. NOTE: the menu will also show up on the terminal for users to see while the stream audio is running.
 
 1. NOTE: in the case of an error about audio output not correct or audio not playing from the speaker you want to, please refer to "Audio MIDI setup" of your system and change the value of KDeviceIndex inside the code. Each audio input/output device will have its labeled ID number, the top will be starting from ID:0 and going up as the device list goes down. For example, if your headphone device is on number 4 of the setup list, the ID value need to be 3 inside the code for KDeviceIndex.
+
+
+## Developers
+[tingting129](https://github.com/tingting129)
+[pkhao75](https://github.com/pkhao75)
