@@ -11,7 +11,7 @@
 # **Operation**
 * To run the iShift code, put the iShift and the audio file that need to be shifted in the same folder.
 Open terminal with the directory pointing to the folder of the code and type the following.
-clang iShift.c -lsndfile -lsoundpipe -lportaudio
+```clang iShift.c -lsndfile -lsoundpipe -lportaudio```
 ./a.out
 
 * After the code starts running, we have to input some of the initial parameters before the stream starts running and we can hear sound
