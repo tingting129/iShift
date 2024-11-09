@@ -4,7 +4,7 @@
 
 ***
 
-- This software runs mainly on 3 external libraries that need to be installed on top of standard libraries. Libsndfile, portaudio, and soundpipe. Portaudio and libsnd can be installed through Homebrew and soundpipe will need to be compiled and installed by cloning a github source code repo and follow the instructions on the source code page “ [https://github.com/SeesePlusPlus/soundpipe]() ”
+- This software relies on three external libraries that need to be installed in addition to the standard libraries: Libsndfile, Portaudio, and Soundpipe. Portaudio and Libsndfile can be installed via Homebrew, while Soundpipe must be compiled and installed by cloning the GitHub repository and following the instructions on the repository page: https://github.com/SeesePlusPlus/soundpipe.
 
 - The code runs with an easy question/answer UI on the command line, users only need to type in easy parameters to run the code. The basic operation of this software starting from running the code is, input file to pitch shift then input all parameters requested from the screen, adjusting parameters live on the audio stream and then chose to print the output or exit the software.
 
